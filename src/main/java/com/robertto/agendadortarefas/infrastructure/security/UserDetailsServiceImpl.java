@@ -1,15 +1,11 @@
 package com.robertto.agendadortarefas.infrastructure.security;
 
 
-import com.beto.demo.infrastructure.entity.Usuario;
-import com.beto.demo.infrastructure.repository.UsuarioRepository;
 import com.robertto.agendadortarefas.business.dto.UsuarioDTO;
 import com.robertto.agendadortarefas.infrastructure.client.UsuarioClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 @Service
